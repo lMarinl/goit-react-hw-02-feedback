@@ -1,10 +1,6 @@
-.sectionFeedback {
-  padding: 70px 15px;
-  margin: auto;
-  width: 100%;
-  max-width: 400px;
-  border-radius: 15px;
-  border: 1px solid rgb(47, 95, 228);
-  background-color: rgb(221, 225, 119);
-  box-shadow: 2px 5px 11px 3px gray;
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
 }

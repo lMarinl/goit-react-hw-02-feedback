@@ -1,9 +1,8 @@
 import css from './FeedbackOptions.module.css';
 
-export const FeedbackOptions = ({ title, options, onLeaveFeedback }) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div className={css.optionsContainer}>
-      <h1 className={css.title}>{title}</h1>
       <ul className={css.optionsList}>
         {options.map(option => (
           <li key={option} className={css.optionsItem}>
